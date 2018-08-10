@@ -62,11 +62,12 @@ namespace teszt
             IDataAccess database;
             DatabaseType dbType = DatabaseType.SQLServer;
             database = DatabaseFactory.CreateDatabase(dbType);
+            database = RepositoryFactory.GetRepository(dbType);
 
             Worker worker = new Worker(database);
 
             if (String.IsNullOrWhiteSpace(color))            
-                throw new ArgumentException("Nem válaszottál színt!");
+                throw new ArgumentException("Nem választottál színt!");
             
             string result = worker.Start(color);
 
