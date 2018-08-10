@@ -59,8 +59,8 @@ namespace teszt
 
         private void GetCar_Click(object sender, RoutedEventArgs e)
         {
-            IDatabase database;
-            DatabaseType dbType = DatabaseType.XML;
+            IDataAccess database;
+            DatabaseType dbType = DatabaseType.SQLServer;
             database = DatabaseFactory.CreateDatabase(dbType);
 
             Worker worker = new Worker(database);

@@ -10,7 +10,7 @@ namespace teszt.Factory
 {
     static class DatabaseFactory
     {
-        public static IDatabase CreateDatabase(DatabaseType chooseDB)
+        public static IDataAccess CreateDatabase(DatabaseType chooseDB)
         {
             switch (chooseDB)
             {

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace teszt.Database
 {
-    class OracleDatabase : IDatabase
+    class OracleDatabase : IDataAccess
     {
         private IDbConnection _connection;
         private IDbCommand _command;
@@ -37,7 +37,7 @@ namespace teszt.Database
 
         public IDbCommand Command => throw new NotImplementedException();     
 
-        string IDatabase.Command(string color)
+        string IDataAccess.Command(string color)
         {
             throw new NotImplementedException();
         }

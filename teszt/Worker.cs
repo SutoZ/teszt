@@ -9,9 +9,9 @@ namespace teszt
 {
     class Worker
     {
-        private IDatabase _database;
+        private IDataAccess _database;
 
-        public Worker(IDatabase database)
+        public Worker(IDataAccess database)
         {
             _database = database;
         }

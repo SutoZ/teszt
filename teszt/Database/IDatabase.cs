@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace teszt.Database
 {
-    public interface IDatabase
+    public interface IDataAccess
     {
         IDbConnection Connection { get; }
         string Command(string color);

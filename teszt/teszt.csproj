@@ -60,6 +60,7 @@
     </ApplicationDefinition>
     <Compile Include="Car.cs" />
     <Compile Include="Constants.cs" />
+    <Compile Include="RepositoryFactory.cs" />
     <Compile Include="Sample.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

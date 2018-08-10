@@ -9,7 +9,7 @@ using teszt.Database;
 
 namespace teszt
 {
-    class XmlReader : IDatabase
+    class XmlReader : IDataAccess
     {
         public IDbConnection Connection => throw new NotImplementedException();
 

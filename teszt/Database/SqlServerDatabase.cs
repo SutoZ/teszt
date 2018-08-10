@@ -11,7 +11,7 @@ using System.Collections;
 
 namespace teszt.Database
 {
-    class SqlServerDatabase : IDatabase
+    class SqlServerDatabase : IDataAccess
     {
         private SqlConnection _connection = null;
         private SqlCommand _command = null;
