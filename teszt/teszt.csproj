@@ -77,7 +77,7 @@
       <SubType>Code</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="Database\IDatabase.cs" />
+    <Compile Include="Database\IDataAccess.cs" />
     <Compile Include="Database\OracleDatabase.cs" />
     <Compile Include="Database\SqlServerDatabase.cs" />
     <Compile Include="Factory\DatabaseFactory.cs" />
