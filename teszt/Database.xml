@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<worker>
+  <emp>
+    <empno>0</empno>
+    <ename>test0</ename>
+    <job>job0</job>
+    <mgr>mgr0</mgr>
+    <hiredata>2018.02.02</hiredata>
+    <sal>6000</sal>
+    <comm>100</comm>
+    <dept>5</dept>
+  </emp>
+  <emp>
+    <empno>1</empno>
+    <ename>test1</ename>
+    <job>job1</job>
+    <mgr>mgr1</mgr>
+    <hiredata>2018.02.02</hiredata>
+    <sal>8000</sal>
+    <comm>200</comm>
+    <dept>5</dept>
+  </emp>
+</worker>
