@@ -62,7 +62,6 @@ namespace teszt
             IDataAccess database;
             DatabaseType dbType = DatabaseType.SQLServer;
             database = DatabaseFactory.CreateDatabase(dbType);
-            database = RepositoryFactory.GetRepository(dbType);
 
             Worker worker = new Worker(database);
 
